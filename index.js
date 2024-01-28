@@ -1,28 +1,53 @@
 const quiz = [
     {
-      question: "What is the capital of France?",
-      options: ["Berlin", "Madrid", "Paris", "Rome"],
+      question: "What is the result of 2 + 2?",
+      options: ["3", "4", "5", "6"],
+      correctAnswer: 1
+    },
+    {
+      question: "Which keyword is used to declare a variable in JavaScript?",
+      options: ["let", "var", "const", "int"],
+      correctAnswer: 0
+    },
+    {
+      question: "What does 'DOM' stand for?",
+      options: ["Document Object Model", "Data Object Model", "Dynamic Object Model", "Document Oriented Model"],
+      correctAnswer: 0
+    },
+    {
+      question: "How do you write a comment in JavaScript?",
+      options: ["// Comment", "# Comment", "/* Comment */", "<!-- Comment -->"],
+      correctAnswer: 0
+    },
+    {
+      question: "Which method is used to add an element to the end of an array?",
+      options: ["insertEnd()", "append()", "addToEnd()", "push()"],
+      correctAnswer: 3
+    },
+    {
+      question: "What is the purpose of the 'querySelector' method in JavaScript?",
+      options: ["Selects an HTML element", "Selects a CSS class", "Selects a DOM element", "Selects a JSON object"],
+      correctAnswer: 1
+    },
+    {
+      question: "Which of the following is a primitive data type in JavaScript?",
+      options: ["Object", "Array", "String", "Function"],
       correctAnswer: 2
     },
     {
-      question: "Which planet is known as the Red Planet?",
-      options: ["Mars", "Venus", "Jupiter", "Saturn"],
+      question: "What is the result of the expression '3' + 2 in JavaScript?",
+      options: ["32", "5", "6", "Error"],
       correctAnswer: 0
     },
     {
-      question: "What is the largest mammal in the world?",
-      options: ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
-      correctAnswer: 1
-    },
-    {
-      question: "In which year did the Titanic sink?",
-      options: ["1912", "1920", "1905", "1931"],
+      question: "How do you check the type of a variable in JavaScript?",
+      options: ["typeOf", "typeof", "checkType", "variableType"],
       correctAnswer: 0
     },
     {
-      question: "Who wrote 'Romeo and Juliet'?",
-      options: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
-      correctAnswer: 1
+      question: "Which loop is used for iterating over the properties of an object?",
+      options: ["for loop", "while loop", "do-while loop", "for...in loop"],
+      correctAnswer: 3
     }
 ];
 
